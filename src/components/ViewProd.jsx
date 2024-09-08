@@ -65,24 +65,24 @@ const ViewProd = () => {
                         component="div"
                         sx={{
                           width: "75%",
-                          fontFamily: "Georgia",
-                          fontWeight: "500",
+                          fontFamily: "Poppins",
+                          fontWeight: "600",
                         }}
                       >
                         {item.title}
                       </Typography>
-                      <Typography variant="body1" sx={{ fontWeight: "500" }}>
-                        {"₹ " + item.price}
+                      <Typography variant="body1" color="blue" sx={{ fontWeight: "600", fontFamily: "Poppins" }}>
+                        {"$ " + item.price}
                       </Typography>
                     </div>
                     <Typography
                       variant="subtitle1"
-                      sx={{ color: "text.secondary", fontStyle: "italic" }}
+                      sx={{ color: "text.secondary", fontStyle: "italic", fontFamily: "Poppins" }}
                       align="left"
                     >
                       <span
                         style={{
-                          fontWeight: "500",
+                          fontWeight: "600",
                         }}
                       >
                         category:

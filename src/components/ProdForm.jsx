@@ -65,7 +65,7 @@ const ProdForm = () => {
               slotProps={{
                 input: {
                   startAdornment: (
-                    <InputAdornment position="start">₹</InputAdornment>
+                    <InputAdornment position="start">$</InputAdornment>
                   ),
                 },
               }}
