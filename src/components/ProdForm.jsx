@@ -21,11 +21,11 @@ const ProdForm = () => {
       >
         <Box component="form" autoComplete="off" sx={{ padding: "2rem", borderRadius: "0.25em"}}>
           <Typography
-            variant="h4"
+            variant="h5"
             color="primary"
-            sx={{ margin: "0.5rem 0", fontWeight: "600", fontFamily: "Poppins" }}
+            sx={{ margin: "0.5rem 0", fontWeight: "600", fontFamily: "Poppins", textAlign: "center" }}
           >
-            Product Details
+          ADD PRODUCT
           </Typography>
           <Stack direction="column" spacing={0.5} sx={{ maxWidth: "480px" }}>
             <label htmlFor="name">Product Name :</label>

@@ -16,7 +16,7 @@ const ViewProd = () => {
     <>
       <Box>
         <Typography
-          variant="h4"
+          variant="h5"
           component="div"
           color="primary"
           sx={{
@@ -26,7 +26,7 @@ const ViewProd = () => {
             my: "1rem",
           }}
         >
-          Products Dashboard
+          PRODUCTS DASHBOARD
         </Typography>
         <Grid
           container
